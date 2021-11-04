@@ -1,0 +1,148 @@
+Body{
+    
+    Background: url("Images/battleback7.png") no-repeat center ; 
+    background-size: cover;
+    height: 100vh;
+    font-family: "MedievalSharp";
+    color: rgb(41, 32, 19);
+    
+}
+
+#Screen {
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    
+
+}
+
+.Characters {
+
+    position: absolute;
+    right: 25%;
+
+
+}
+
+#Blue {
+    position: absolute;
+    bottom: 650px;
+    z-index: 1;
+
+}
+
+
+#Red {
+    position: absolute;
+    bottom: 280px;
+
+}
+#Green {
+    position: absolute;
+    bottom: 900px;
+
+}
+
+#Bronze{
+    position: absolute;
+    bottom: 160%;
+
+}
+
+
+
+#Ghost1 {
+
+    position: absolute;
+    bottom: 700px;
+    left: 120px;
+
+
+}
+
+#Ghost2 {
+
+    position: absolute;
+    bottom: 400px;
+    left: 300px;
+
+
+}
+
+#Ghost3 {
+
+    position: absolute;
+    bottom: 100px;
+    left: 160px;
+
+
+}
+
+#FightOptions {
+
+    display: flex;
+    justify-content: center;
+    box-sizing: content-box;
+    border: solid rgb(41, 29, 21) 0.15em;
+    border-radius: 10px;
+    width: 200px;
+    Height: 250px;
+    font-size: 3em;
+    position: absolute;
+    right: 550px;
+    top: 60px;
+    
+
+
+}
+
+#Message {
+
+
+    display: flex;
+    justify-content: center;
+    box-sizing: content-box;
+    border: solid rgb(41, 29, 21) 0.15em;
+    border-radius: 10px;
+    width: 800px;
+    Height: 180px;
+    font-size: 5em;
+    position: absolute;
+    left: 500px;
+    top: 150px;
+
+}
+
+#InfosPlayer {
+
+    display: flex;
+    justify-content: center;
+    box-sizing: content-box;
+    border: solid rgb(41, 29, 21) 0.15em;
+    border-radius: 10px;
+    width: 820px;
+    Height: 240px;
+    font-size: 3em;
+    position: absolute;
+    right: 800px;
+    bottom : 100px;
+    justify-content: flex-end;
+
+
+}
+
+#RedInfo {
+    position: absolute;
+    bottom : 190px;
+    right: 1570px;
+
+}
+
+#BronzeInfo {
+    position: absolute;
+    bottom : 140px;
+    right: 1570px;
+
+}
+
